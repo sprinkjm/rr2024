@@ -1,14 +1,13 @@
 # ITSC 2024 Reproducibility in Transportation Research: A Hands-on Tutorial
 
->🔥 Here's a great example of how to organize code and data poorly.
+Author: Jonathan Sprinkle
 
-You should be grateful I even shared my code. Good luck in getting it to work!
+Based on an original example from Cathy Wu as part of the 
+Reproducible Research Workshop at ITSC 2024
+Tutorial link: https://rrintransportation.github.io/itsc24-rr-tutorial/
 
-I used Python. Run `simulator.py` to get started.
-
-Here are the results of my simulation:
-
-<img src="figure_fvd.png" align=left width="350" /> <img src="figure_svd.png" width="350" />
+The default simulations should match the below files:
+<img src="figure_fvd_0.png" align=left width="350" /> <img src="figure_svd_0.png" width="350" />
 
 ## Requirements
 
@@ -25,3 +24,7 @@ From the command line, invoke the simulator:
 ```
 python simulator.py --run-idm --no-render
 ```
+
+Compare your output files `figure_fvd.png` and `figure_svd.png` to the default files provided by the repository.
+
+
