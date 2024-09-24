@@ -1,0 +1,12 @@
+name: RR
+
+dependencies:
+    - pip
+    - python==3.8.8
+    - pip:
+        - matplotlib==3.7.5
+        - pygame==2.6.0
+        - pandas==2.0.3
+        - numpy==1.24.4
+        - jupyterlab==4.2.5
+        - pillow==10.4.0
